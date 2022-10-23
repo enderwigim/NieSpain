@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import Select
 import time
 
 # First we tell the bot what page it should get
+# driver = webdriver.Safari()
 service = Service(executable_path="./ChromeDriver/chromedriver")
 driver = webdriver.Chrome(service=service)
 driver.get('https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus')
